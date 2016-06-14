@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.frameworks     = 'SystemConfiguration', 'Security', 'AdSupport'
   s.library        = 'Apsalar', 'z', 'sqlite3.0'
   s.xcconfig       = {
-    'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/apsalar/Apsalar-iOS-SDK/Library"'
+    'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Apsalar/Apsalar-iOS-SDK/Library"'
   }
 end
